@@ -233,7 +233,7 @@ django-webpack-loader==0.5.0 \
     --hash=sha256:0a8536e36a30d719018cd4c5da6e9d2377771134e713c14e617bb484b4f0acce \
     --hash=sha256:7094bcd8cc40c9824e5b482ce8ff9e8ae09e1982e5d08e078e5fe2411fb40a03
     # via -r requirements/default.txt
-django==3.1.7 \
+django==3.2.15 \
     --hash=sha256:32ce792ee9b6a0cbbec340123e229ac9f765dff8c2a4ae9247a14b2ba3a365a7 \
     --hash=sha256:baf099db36ad31f970775d0be5587cc58a6256a6771a44eb795b554d45f211b8
     # via
@@ -317,7 +317,7 @@ jinja2==2.11.3 \
     # via
     #   -r requirements/default.txt
     #   django-jinja
-joblib==1.0.1 \
+joblib==1.1.1 \
     --hash=sha256:9c17567692206d2f3fb9ecf5e991084254fe631665c450b443761c4186a613f7 \
     --hash=sha256:feeb1ec69c4d45129954f1b7034954241eedfd6ba39b5e9e4b6883be3332d5e5
     # via
@@ -697,7 +697,7 @@ six==1.15.0 \
     #   requests-mock
     #   sacremoses
     #   singledispatch
-sqlparse==0.4.1 \
+sqlparse==0.4.2 \
     --hash=sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0 \
     --hash=sha256:0f91fd2e829c44362cbcfab3e9ae12e22badaa8a29ad5ff599f9ec109f0454e8
     # via
