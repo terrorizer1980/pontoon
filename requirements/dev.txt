@@ -105,7 +105,7 @@ compare-locales==8.1.0 \
     --hash=sha256:286270797ce64f7a2f25e734bb437870661409884a4f0971c0bb94fdad6c1f35 \
     --hash=sha256:3d374ff959d5de2cfd5b94caf6b0fa61445f1d8ede5af384002cb3542aacad3a
     # via -r requirements/default.txt
-cryptography==3.4.4 \
+cryptography==42.0.0 \
     --hash=sha256:287032b6a7d86abc98e8e977b20138c53fea40e5b24e29090d5a675a973dcd10 \
     --hash=sha256:288c65eea20bd89b11102c47b118bc1e0749386b0a0dfebba414076c5d4c8188 \
     --hash=sha256:7eed937ad9b53280a5f53570d3a7dc93cb4412b6a3d58d4c6bb78cc26319c729 \
@@ -144,7 +144,7 @@ django-csp==3.7 \
     --hash=sha256:01443a07723f9a479d498bd7bb63571aaa771e690f64bde515db6cdb76e8041a \
     --hash=sha256:01eda02ad3f10261c74131cdc0b5a6a62b7c7ad4fd017fbefb7a14776e0a9727
     # via -r requirements/default.txt
-django-debug-toolbar==3.2 \
+django-debug-toolbar==3.2.1 \
     --hash=sha256:84e2607d900dbd571df0a2acf380b47c088efb787dce9805aefeb407341961d2 \
     --hash=sha256:9e5a25d0c965f7e686f6a8ba23613ca9ca30184daa26487706d4829f5cfb697a
     # via -r requirements/dev.in
@@ -188,7 +188,7 @@ django-webpack-loader==0.5.0 \
     --hash=sha256:0a8536e36a30d719018cd4c5da6e9d2377771134e713c14e617bb484b4f0acce \
     --hash=sha256:7094bcd8cc40c9824e5b482ce8ff9e8ae09e1982e5d08e078e5fe2411fb40a03
     # via -r requirements/default.txt
-django==3.1.7 \
+django==3.2.23 \
     --hash=sha256:32ce792ee9b6a0cbbec340123e229ac9f765dff8c2a4ae9247a14b2ba3a365a7 \
     --hash=sha256:baf099db36ad31f970775d0be5587cc58a6256a6771a44eb795b554d45f211b8
     # via
@@ -280,7 +280,7 @@ kombu==4.6.11 \
     # via
     #   -r requirements/default.txt
     #   celery
-lxml==4.6.3 \
+lxml==4.9.1 \
     --hash=sha256:079f3ae844f38982d156efce585bc540c16a926d4436712cf4baee0cce487a3d \
     --hash=sha256:0fbcf5565ac01dff87cbfc0ff323515c823081c5777a9fc7703ff58388c258c3 \
     --hash=sha256:122fba10466c7bd4178b07dba427aa516286b846b2cbd6f6169141917283aae2 \
@@ -433,7 +433,7 @@ pycparser==2.20 \
     # via
     #   -r requirements/default.txt
     #   cffi
-pyjwt[crypto]==2.0.1 \
+pyjwt==2.4.0 \
     --hash=sha256:a5c70a06e1f33d81ef25eecd50d50bd30e34de1ca8b2b9fa3fe0daaabcf69bf7 \
     --hash=sha256:b70b15f89dc69b993d8a8d32c299032d5355c82f9b5b7e851d1a6d706dffe847
     # via
@@ -574,7 +574,7 @@ six==1.15.0 \
     #   python-dateutil
     #   sacremoses
     #   singledispatch
-sqlparse==0.4.1 \
+sqlparse==0.4.4 \
     --hash=sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0 \
     --hash=sha256:0f91fd2e829c44362cbcfab3e9ae12e22badaa8a29ad5ff599f9ec109f0454e8
     # via
